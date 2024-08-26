@@ -1,0 +1,55 @@
+Sentiment Analysis:
+    4 = None/Neutral: Informational tweets outside election topic, spam, or ambiguous.
+    3 = Comparative 
+        Definition: Tweets that compare two candidate, one is positive one is negative.
+        Criteria: Presence of COMPARATIVE LANGUAGE, indication of postive and negative sentiment at once.
+    2 = Positive
+	Definition: Tweets expressing a positive sentiment.
+        Criteria: Positive words and phrases indicating approval or support.
+    1 = Negative
+	Definition: Tweets expressing a negative sentiment.
+        Criteria: Negative words and phrases indicating disapproval or criticism.
+
+Candidate Mention:
+(Multiple Choice, sorted)
+    0 = None: No candidate mentioned. 
+    1 = Anies or other nickname/handle such si omon-omon, 01, etc.
+    2 = Prabowo or other nickname/handle such wowo, 02, etc.
+    3 = Ganjar or other nickname/handle such paslon 03, etc.
+
+Topic Discussed - Policy Issues:
+    0 = None:
+	Definition: Tweets that do not discuss any policy issues or candidate performance.
+        Example: "Anies all in", "haha"
+
+    1 = Economy, Industry, Infrastructure, Technology
+	Definition: Tweets discussing economic policies, industry developments, infrastructure projects, or technological advancements.
+	Criteria: Keywords related to economy, job creation, industry, infrastructure, or technology.
+
+    2 = Education, Healthcare, Social Service
+	Definition: Tweets discussing education policies, healthcare services, or social welfare programs."
+        Criteria: Keywords related to education, healthcare, home issue, social help (bansos) and other wellfare.
+
+    3 = Agriculture, Environment, Social Culture: 
+	Definition: Tweets discussing agricultural policies, environmental issues, or social cultural topics.
+        Criteria: Keywords related to agriculture, environment, or social culture.
+
+    4 = Defense and Security, Foreign Policy
+	Definition: Tweets discussing national defense, security measures, or foreign policy.
+        Criteria: Keywords related to defense, security or foreign policy.
+
+    5 = Corruption, Justice, Law: Corruption, justice system reforms, legal issues.
+	Definition: Tweets discussing corruption, justice system reforms, or legal issues.
+        Criteria: Keywords related to corruption, justice, or law including the law enforcement.
+
+    6 = Candidate Personal Attributes, Ideology and Background
+	Definition: Tweets discussing a candidate’s experience, educational background, or any scandals.
+        Criteria: PERSONAL CANDIDATE context with keywords related to experience, education, or background and more. 
+
+    7 = Supporter, Stakeholder, Parties:
+	Definition: Tweets discussing supporters, stakeholders, or political parties.
+        Criteria: existence of subject other than candidate with context and keywords related to supporters, stakeholders, or parties.
+
+    8 = Recent Rallies/Speeches/Debate/Campaign Performance
+	Definition: Tweets discussing recent rallies, speeches, debates, or overall campaign performance.
+        Criteria: PERSONAL CANDIDATE context with keywords related to rallies, speeches, debates, or campaign events.
